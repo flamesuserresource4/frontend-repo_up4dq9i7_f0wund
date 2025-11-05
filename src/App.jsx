@@ -6,7 +6,7 @@ import RetroFooter from './components/RetroFooter.jsx';
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full bg-neutral-950 text-neutral-100 selection:bg-amber-300 selection:text-neutral-900">
+    <div className="min-h-screen w-full bg-neutral-950 text-neutral-100 selection:bg-violet-300 selection:text-neutral-900">
       <Hero />
       <SkillsStrip />
       <Projects />

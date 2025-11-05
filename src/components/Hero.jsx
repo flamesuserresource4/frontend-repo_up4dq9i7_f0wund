@@ -15,28 +15,28 @@ export default function Hero() {
 
       {/* Gradient and vignette overlays (don't block interactions) */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/50 via-black/10 to-neutral-950" />
-      <div className="pointer-events-none absolute inset-0 [box-shadow:inset_0_0_120px_40px_rgba(0,0,0,0.45)]" />
+      <div className="pointer-events-none absolute inset-0 [box-shadow:inset_0_0_140px_50px_rgba(0,0,0,0.55)]" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-6 text-center">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-4 py-1 text-xs uppercase tracking-widest text-amber-300/90 backdrop-blur">
-          <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-amber-300" />
-          Retro Mode: Mario Vibes
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-4 py-1 text-xs uppercase tracking-widest text-violet-300/90 backdrop-blur">
+          <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-violet-300" />
+          Modern Magic World
         </div>
 
         <h1 className="font-extrabold tracking-tight text-white drop-shadow-[0_2px_0_rgba(0,0,0,0.5)]" style={{ fontFamily: 'Mona Sans, Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif' }}>
-          <span className="block text-4xl sm:text-5xl md:text-6xl">Full‑Stack .NET Developer</span>
-          <span className="mt-2 block text-2xl font-semibold text-amber-300 sm:text-3xl md:text-4xl">Blazor • .NET MAUI • Test Automation • Unity</span>
+          <span className="block text-3xl sm:text-5xl md:text-6xl">Linggar Bhakti Pratama</span>
+          <span className="mt-2 block text-xl font-semibold text-violet-300 sm:text-2xl md:text-3xl">Full‑Stack .NET Engineer • Blazor • .NET MAUI • Automation • Unity</span>
         </h1>
 
-        <p className="mt-4 max-w-2xl text-balance text-sm text-white/80 md:text-base">
-          Building end‑to‑end apps with ASP.NET Core, Blazor, and MAUI. Automating quality with Selenium, Appium, and Playwright. Crafting playful experiences in Unity with a nostalgic, pixel‑perfect touch.
+        <p className="mt-4 max-w-2xl text-balance text-sm text-white/85 md:text-base">
+          Crafting responsive, production‑ready experiences with ASP.NET Core, Blazor, and MAUI. Bringing quality to life with Selenium, Appium, and Playwright — and a sprinkle of game‑like magic.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
             href="#projects"
-            className="group inline-flex items-center gap-2 rounded-md bg-amber-400 px-5 py-3 font-semibold text-neutral-900 shadow-[0_4px_0_#8a5a00] transition hover:translate-y-[1px] hover:shadow-[0_3px_0_#8a5a00] active:translate-y-[2px] active:shadow-[0_2px_0_#8a5a00]"
+            className="group inline-flex items-center gap-2 rounded-md bg-violet-400 px-5 py-3 font-semibold text-neutral-900 shadow-[0_4px_0_#4c2b8b] transition hover:translate-y-[1px] hover:shadow-[0_3px_0_#4c2b8b] active:translate-y-[2px] active:shadow-[0_2px_0_#4c2b8b]"
           >
             <Rocket className="h-5 w-5 transition-transform group-hover:-rotate-12" />
             View Projects

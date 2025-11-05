@@ -48,7 +48,7 @@ export default function SkillsStrip() {
   return (
     <section className="relative z-10 border-y border-white/10 bg-neutral-950/80">
       <div className="mx-auto max-w-6xl px-6 py-6">
-        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-amber-300/80">Core Stack</p>
+        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-violet-300/90">Core Stack</p>
         <Row />
         <Row reverse speed={26} />
       </div>
